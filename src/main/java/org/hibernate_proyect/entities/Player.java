@@ -25,7 +25,7 @@ public class Player {
 
     private String language;
 
-    @OneToOne
+    @ManyToOne
     private Game favorite_game;
 
     private String country;
