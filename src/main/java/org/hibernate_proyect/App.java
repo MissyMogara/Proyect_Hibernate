@@ -5,16 +5,6 @@ import org.hibernate_proyect.entities.Game;
 import org.hibernate_proyect.entities.Player;
 import org.hibernate_proyect.repositories.PlayerRepository;
 
-import java.io.*;
-import java.net.URL;
-import java.nio.channels.Channels;
-import java.nio.channels.FileChannel;
-import java.nio.channels.ReadableByteChannel;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.file.StandardCopyOption;
-
 public class App {
     @Transactional
     public static void main(String[] args) {

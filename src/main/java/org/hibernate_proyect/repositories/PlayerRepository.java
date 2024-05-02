@@ -5,7 +5,6 @@ import org.hibernate_proyect.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate_proyect.entities.Player;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class PlayerRepository {
