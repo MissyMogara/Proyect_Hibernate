@@ -18,7 +18,6 @@ public class App {
 
         player1.setFavorite_game(game1);
 
-
         //Close repository
         playerRepository.closeSession();
 

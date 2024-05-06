@@ -29,8 +29,6 @@ public class Player {
 
     private String country;
 
-
-    //private String avatar; //URL IMAGE, DON'T DO IT FOR NOW
     //CONSTRUCTOR
     public Player(String name, String nick, String email, String language, String country){
         this.name = name;
